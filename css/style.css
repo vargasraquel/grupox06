@@ -181,7 +181,7 @@ h6 {
 .modal-container .modal-content>button {
   background: transparent;
   border: 0;
-  color: var(--primary);
+  color: #ffffff;
   font-size: 20px;
   position: absolute;
   top: 0;
