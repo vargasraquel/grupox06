@@ -1,4 +1,86 @@
-#cabecalho {
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&display=swap');
+
+* {
+    padding: 0em;
+    margin: 0em;
+}
+
+body {
+    font-family: 'Oswald', sans-serif;
+    overflow-x: hidden;
+}
+
+/* topo da página */
+.topo {
+    font-weight: 300;
+    font-size: 1.2em;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    left: 10%;
+    margin-top: 5%;
+}
+
+.topo h1 {
+    text-transform: uppercase;
+    line-height: 2.5em;
+    font-size: 2em;
+}
+
+.textohead {
+    width: 30%;
+    display: block;
+    line-height: 2em;
+}
+
+.imagemhead {
+    display: flex;
+    flex-direction: column;
+}
+
+.imagemhead img {
+    z-index: -1;    
+    width: 90%;
+    margin-left: -5%;
+}
+
+.logos {
+    display: flex;
+    margin-top: 3%;
+    margin-left: 10%;
+}
+
+.logos p {
+    align-items: flex-start;
+}
+
+.logos img {
+    width: 20%;
+    margin-left: 2%;
+}
+
+/* topo responsivo */
+
+@media only screen and (max-width: 550px) {
+    .topo {
+     flex-direction: column-reverse;   
+    }
+
+    .textohead {
+        width: 80%;
+        left: 0;
+    }
+
+    .logos {
+        margin: 5% auto;
+    }
+    
+    .logos img {
+        width: 30%;
+    }
+
+  
+  #cabecalho {
   background-color: GREY;
 }
 
