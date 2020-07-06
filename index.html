@@ -120,6 +120,21 @@
 
     <!-- CONTADOR JS -->
     <!--POP EXIT -->
+    <div id="retention-modal" class="modal-container hidden">
+        <div class="modal-overlay"></div>
+        <div class="modal-content">
+          <button type="button" id="close-button">&times;</button>
+          <form method="POST" action="https://www.google.com/">
+            <h3>Por que está saindo da página?</h3>    
+            <input id="email" name="email" type="email" placeholder="Digite aqui o seu e-mail."
+              title="Digite um email válido" required />
+            <input id="name" name="name" type="hidden" value="usuariomodal" required />
+            <input type="submit" value="Enviar" />
+            <h6>Isso é um teste de pop-up! Não fecha a nossa página, por favor.</h6>
+            <input name="redirectTo" type="hidden" value="https://www.google.com/" />
+          </form>
+        </div>
+      </div>
 
 
     <!--JS BOOTSTRAP-->
