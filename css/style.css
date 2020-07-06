@@ -129,6 +129,10 @@
   }
 }
 
+.hidden {
+  display: none !important;
+}
+
 .modal-container {
   position: fixed;
   width: 100%;
