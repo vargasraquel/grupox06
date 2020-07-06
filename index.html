@@ -72,7 +72,9 @@
   <div id="retention-modal" class="modal-container hidden">
     <div class="modal-overlay"></div>
     <div class="modal-content">
-      <button type="button" id="close-button">&times;</button>
+      <button type="button" class="close" data-dismiss="modal" id="close-button" aria-label="Close" >
+        <span aria-hidden="true">&times;</span>
+      </button>
       <form method="POST" action="https://www.google.com/">
         <h3>Por que está saindo da página?</h3>
         <input id="email" name="email" type="email" placeholder="Digite aqui o seu e-mail."

@@ -11,9 +11,6 @@ let open = false;
     }
 
     window.onload = function () {
-      document.querySelector('#btn-start').addEventListener('click', () => {
-        window.location.href = "https://futuramentemaker.com/index.html"
-      });
 
       const overlay = document.querySelector('.modal-overlay');
       const closeButton = document.querySelector('#close-button');
