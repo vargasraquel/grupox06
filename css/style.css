@@ -37,8 +37,7 @@ body {
 /* Logos embaixo da imagem */
 .logos {
   display: flex;
-  margin-top: 2vw;
-  margin-left: 10%;
+  margin-top: -10vw;
 }
 
 .logos p {
