@@ -85,6 +85,36 @@ body {
 margin-right: 2.5em;
 }
 
+/* Layout do contador seção 3 */
+.contador1 {
+  font-size: 1.3em;
+  padding: 0.5em 0.8em;
+  border: solid 1px #0093CB;
+  border-radius: 4px;
+  display: inline;
+}
+
+.contagem1 {
+margin-right: 2.8em;
+font-size: 0.8em;
+}
+
+/* Layout responsivo do contador seção 3 */
+@media only screen and (max-width: 550px) {
+
+.contador1 {
+  font-size: 0.8em;
+  padding: 0.5em 0.7em;
+  border: solid 1px #0093CB;
+  border-radius: 4px;
+  display: inline;
+}
+
+  .contagem1 {
+  margin-right: 2.8em;
+  font-size: 0.5em;
+  }
+}
 /* topo responsivo */
 
 @media only screen and (max-width: 550px) {
