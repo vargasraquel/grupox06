@@ -250,6 +250,7 @@ margin-right: 2.5em;
 #hr{
   background-color: #0093CB;
 }
+/* MEDIA SECTION 3 */
 @media screen and (max-width: 768px){
   #banner4{
       margin-left: 0px;
@@ -263,6 +264,57 @@ margin-right: 2.5em;
   #hr{
     background-color: #0093CB;
   }
+  #detalhes{
+    font-family: 'Oswald', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 47px;
+    padding-top: 75px;
+   
+  }
+  #detalhes_1{
+      font-family: 'Oswald', sans-serif;
+      font-style: normal;
+      font-style: normal;
+      font-size: 18px;
+      padding-top: 4px;
+      
+  }
+  #start_ev{
+      font-family: 'Oswald', sans-serif;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 24px;
+      line-height: 36px;
+      padding-top: 45px;
+      
+  }
+  #start_ev1{
+      font-family: 'Oswald', sans-serif;
+      font-style: normal;
+      font-size: 24px;
+      line-height: 36px;
+      padding-top: 45px;
+  }
+  #data_ev{
+    font-family: 'Oswald', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    padding-top: 35px;
+    padding-bottom: 25px;
+}
+  #hora_1{
+      font-family: 'Oswald', sans-serif;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 18px;
+      line-height: 27px;
+      padding-bottom: 25px;
+      padding-top:16px;
+  }
 }
 @media screen and (max-width: 992px){
   #banner4{
@@ -271,7 +323,60 @@ margin-right: 2.5em;
   #banner5{
       margin-left: 0px;
   }
+  #detalhes{
+    font-family: 'Oswald', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 47px;
+    padding-top: 75px;
+   
+  }
+  #detalhes_1{
+      font-family: 'Oswald', sans-serif;
+      font-style: normal;
+      font-style: normal;
+      font-size: 18px;
+      padding-top: 4px;
+      
+  }
+  #start_ev{
+      font-family: 'Oswald', sans-serif;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 24px;
+      line-height: 36px;
+      padding-top: 45px;
+      
+  }
+  #start_ev1{
+      font-family: 'Oswald', sans-serif;
+      font-style: normal;
+      font-size: 24px;
+      line-height: 36px;
+      padding-top: 45px;
+      
+  }
+  #data_ev{
+    font-family: 'Oswald', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    padding-top: 35px;
+    padding-bottom: 25px;
 }
+  #hora_1{
+      font-family: 'Oswald', sans-serif;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 18px;
+      line-height: 27px;
+      padding-bottom: 25px;
+      padding-top:16px;
+  }
+  }
+/* FIM MEDIA SECTION 3 */
 #detalhes{
     font-family: 'Oswald', sans-serif;
     font-style: normal;
