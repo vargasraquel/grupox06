@@ -1,46 +1,43 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
-  <!-- Flat icon -->
-  <link rel="icon" type="imagem/png" href="imagens/logo_v1.jpeg" />
+   <!-- Flat icon -->
+    <link rel="icon" type="imagem/png" href="imagens/logo_v1.jpeg" />
 
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-171677740-1"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
+    function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
     gtag('config', 'UA-171677740-1');
   </script>
-
+  
   <!-- Hotjar Tracking Code for www.futuramentemaker.com -->
-  <script>
-    (function (h, o, t, j, a, r) {
-      h.hj = h.hj || function () { (h.hj.q = h.hj.q || []).push(arguments) };
-      h._hjSettings = { hjid: 1887775, hjsv: 6 };
-      a = o.getElementsByTagName('head')[0];
-      r = o.createElement('script'); r.async = 1;
-      r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
-      a.appendChild(r);
-    })(window, document, 'https://static.hotjar.com/c/hotjar-', '.js?sv=');
-  </script>
+    <script>
+      (function(h,o,t,j,a,r){
+          h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+          h._hjSettings={hjid:1887775,hjsv:6};
+          a=o.getElementsByTagName('head')[0];
+          r=o.createElement('script');r.async=1;
+          r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+          a.appendChild(r);
+      })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+    </script>
 
-  <!-- Facebook Pixel Code -->
-  <script>
-    !function (f, b, e, v, n, t, s) {
-      if (f.fbq) return; n = f.fbq = function () {
-        n.callMethod ?
-          n.callMethod.apply(n, arguments) : n.queue.push(arguments)
-      };
-      if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
-      n.queue = []; t = b.createElement(e); t.async = !0;
-      t.src = v; s = b.getElementsByTagName(e)[0];
-      s.parentNode.insertBefore(t, s)
-    }(window, document, 'script',
-      'https://connect.facebook.net/en_US/fbevents.js');
+   <!-- Facebook Pixel Code -->
+    <script>
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}(window, document,'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
     fbq('init', '274152143893705');
     fbq('track', 'PageView');
+
   </script>
   <noscript><img height="1" width="1" style="display:none"
       src="https://www.facebook.com/tr?id=274152143893705&ev=PageView&noscript=1" /></noscript>
@@ -72,50 +69,27 @@
   <link rel="canonical" href="https://futuramentemaker.com/"/>
 
 </head>
-
 <body>
-  <!--POP EXIT -->
-  <div id="retention-modal" class="modal-container hidden">
-    <div class="modal-overlay"></div>
-    <div class="modal-content">
-      <button type="button" class="close" data-dismiss="modal" id="close-button" aria-label="Close" >
-        <span aria-hidden="true">&times;</span>
-      </button>
-      <form method="POST" action="https://www.google.com/">
-        <h3>Por que está saindo da página?</h3>
-        <input id="email" name="email" type="email" placeholder="Digite aqui o seu e-mail."
-          title="Digite um email válido" required />
-        <input id="name" name="name" type="hidden" value="usuariomodal" required />
-        <input type="submit" value="Enviar" />
-        <h6>Isso é um teste de pop-up! Por favor, não vá embora.</h6>
-        <input name="redirectTo" type="hidden" value="https://www.google.com/" />
-      </form>
-    </div>
-  </div>
-  <!--INCIO NAV !-->
-  <nav class="navbar navbar-fixed-top navbar-expand-lg navbar-light bg-white" id="edit">
-    <div class="container">
-      <a class="navbar-brand h1 mb-0" href="#"><strong><span style="color:#0191C6; font-size:35px;">Futura</span><span
-            style="color:#69D4F3; font-size:35px;">Mente</span></strong> </a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSite">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSite">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item ">
-          <li class="nav-item"><a class="nav-link" href="#"><span style="color:black; font-size:22px;">Home</span></a>
-          </li>
-          <li class="nav-item"><a class="nav-link" href="#"><span
-                style="color:black; font-size:22px;">Empresa</span></a></li>
-          <li class="nav-item"><a class="nav-link" href="#"><span
-                style="color:black; font-size:22px;">Projetos</span></a></li>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
+	  <!--INCIO NAV !-->
+	<nav class="navbar navbar-fixed-top navbar-expand-lg navbar-light bg-white" id="edit">
+        <div class="container">
+            <a class="navbar-brand h1 mb-0" href="#"><strong><span style="color:#0191C6; font-size:35px;">Futura</span><span style="color:#69D4F3; font-size:35px;" >Mente</span></strong> </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSite">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            <div class="collapse navbar-collapse" id="navbarSite">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item "> 
+                            <li class="nav-item"><a class="nav-link" href="#"><span style="color:black; font-size:22px;">Home</span></a></li>
+                            <li class="nav-item"><a class="nav-link" href="#"><span style="color:black; font-size:22px;">Empresa</span></a></li>
+                            <li class="nav-item"><a class="nav-link" href="#"><span style="color:black; font-size:22px;">Projetos</span></a></li>
+                    </li>
+                </ul>
+           </div>
+       </div>
+    </nav>
 
-  <!-- SECTION 1-->
+     <!-- SECTION 1-->
   <section>
     <div class="container-xl">
       <div class="row topo">
@@ -201,73 +175,98 @@
       </div>
       </div>
     </div>
-  <!-- SECTION 3-->
-  <div class="container-fluid" id="banner3">
-    <div class="row col-6" id="banner4">
-      <div class="container">
-        <div class="container" id="detalhes">
-          DETALHES DO EVENTO
-        </div>
-        <div class="container" id="detalhes_1">
-          Insira aqui um texto bacanudo para falar mais detalhes sobre o evento, o porque ele é importânte e
-          várias outras coisas que podem ser interessante para o público, Por enquanto esse espaço não tem
-          nada interessante escrito, é só um teste para entendermos melhor o layout.
-        </div>
-        <div class="container" id="start_ev">
-          O EVENTO COMEÇA EM:
-        </div>
-        <div class="container" id="start_ev1">
-          DIAS HORS MINS SEGS
-        </div>
-        <div class="container" id="btn_insc">
-          <a href="link inscrever-se" target="_blank" id="btn_insc1" class="btn btn-secondary btn-lg active " role="button"
-            aria-pressed="true">INSCREVA-SE</a>
-        </div>
-        <div class="container" id="btn_ind">
-          <a href="link inscrever-se " target="_blank" id="btn_ind1" class="btn btn-secondary btn-lg active " role="button"
-            aria-pressed="true">INDIQUE O EVENTO</a>
-        </div>
-        <div class="container" id="siga">
-          Nos siga nas redes sociais:
-        </div>
-        <div class="container" id="redes">
-          <span> 
-            <a href="https://www.linkedin.com/company/futuramente-maker/" target="_blank"> 
-              <img src="imagens/in.png" alt="Linkedin">
-            </a>
-          </span> 
-          <span> 
-            <a href="https://www.instagram.com/futuramente.maker/" target="_blank">
-              <img src="imagens/insta.png" alt="Instagram">
-            </a>
-          </span>
-          <span>
-            <a href="https://www.facebook.com/FuturaMente.maker/" target="_blank">
-              <img src="imagens/face.png" alt="Facebook">
-            </a>
-          </span>
-        </div>
+    <!-- SECTION 3-->
+    <div class="container-fluid" id="banner3">
+        <div class="row">
+            <div class="col-6 row "id="banner4">
+                <div class = "container" id="cont_banner4">
+                    <div class = "container" id="detalhes">
+                        DETALHES DO EVENTO
+                    </div>
+                    <div class = "container" id="detalhes_1">
+                        Insira aqui um texto bacanudo para falar mais detalhes sobre o evento, o porque ele é importânte e várias outras coisas que podem ser interessante para o público, Por enquanto esse espaço não tem nada interessante escrito, é só um teste para entendermos melhor o layout.
+                    </div>
+                    <div class = "container" id="start_ev">
+                    O EVENTO COMEÇA EM:
+                    </div>
+                    <div class = "container" id="start_ev1">
+                        DIAS HORS MINS SEGS
+                    </div>
+                    <div class = "container" id="btn_insc">
+                        <a href="link inscrever-se" id="btn_insc1" class="btn btn-secondary btn-lg active "role="button" aria-pressed="true" >INSCREVA-SE</a>
+                    </div>
+                    <div class = "container" id="btn_ind">
+                        <a href="link inscrever-se" id="btn_ind1" class="btn btn-secondary btn-lg active "role="button" aria-pressed="true" >INDIQUE O EVENTO</a>
+                    </div>
+                    <div class = "container" id="siga">
+                        Nos siga nas redes sociais:
+                    </div>
+                    <div class ="container" id="redes">
+                        <span> <a href="https://www.linkedin.com/company/futuramente-maker"> <img src="imagens/in.png" alt="Linkedin"></a></span>      <span> <a href="https://www.instagram.com/futuramente.maker/"><img src="imagens/insta.png" alt="Instagram"> </a></span>       <span><a href="https://www.facebook.com/Futuramente-104190288031994"><img src="imagens/face.png" alt="Facebook"></a> </span>
+                    </div>
+                </div>
+            </div>
+            <!--
+            <div class="col-1 " id="banner6">
+                <section id="hr_vert">
+                </section>
+            </div>-->
+            <!-- TERMINAR DE ADD INFORMAÇÕES -->
+            <div class="col-5 row"id="banner5">
+                <div class="container" id="horários">
+                    <div class = "container" id="data_ev">
+                        09.07.2020
+                    </div>
+                    <div class = "container" id="hora_1">
+                        <p id="tema">ABERTURA - <strong>19:00</strong></p>
+                       Frase bacaninha descritiva do tema e quem vai falar
+                    </div>
+                    <div class = "container" id="hora_1">
+                        <p id="tema"> TEMA #1 - <strong>19:15</strong></p>
+                        Frase bacaninha descritiva do tema e quem vai falar
+                        <p id="inter"><strong>19:35</strong> Dinâmica</p>
+                     </div>
+                     <div class = "container" id="hora_1">
+                        <p id="tema">TEMA #2 - <strong>19:40</strong></p>
+                        Frase bacaninha descritiva do tema e quem vai falar
+                        <p id="inter"><strong>19:35</strong> Intervalo</p>
+                     </div>
+                     <div class = "container" id="hora_1">
+                        <p id="tema">TEMA #3 -<strong>20:15</strong></p>
+                        Frase bacaninha descritiva do tema e quem vai falar
+                     </div>
+                     <div class = "container" id="hora_1">
+                        <p id="tema">TEMA #4 - <strong>20:35</strong></p>
+                        Frase bacaninha descritiva do tema e quem vai falar
+                     </div>
+                     <div class = "container" id="hora_1">
+                        <p id="tema">RESUMO -<strong>21:05</strong></p>
+                        Frase bacaninha descritiva do tema e quem vai falar
+                     </div>
+                     <div class = "container" id="hora_1">
+                        <p id="tema">ENCERRAMENTO - <strong>21:15</strong></p>
+                        Frase bacaninha descritiva do tema e quem vai falar
+                     </div>
+                </div>
+            </div>
       </div>
-    </div>
+      </div>
 
-  </div>
-  </div>
+
+    <!-- CONTADOR JS -->
+    <!--POP EXIT -->
+
+
 
   <!-- CONTADOR JS -->
     <script src="js/countdown.js"></script>
 
 
-  <!--JS BOOTSTRAP-->
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-    crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-    crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
-    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
-    crossorigin="anonymous"></script>
-  <script src="./js/modal.js"></script>
-</body>
 
+    <!--JS BOOTSTRAP-->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    
+</body>
 </html>
