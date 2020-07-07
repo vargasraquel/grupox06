@@ -1,33 +1,42 @@
 let open = false;
+let banana123 = true;
 
-    function toggleModal(close = true) {
-      const modal = document.querySelector('#retention-modal');
+function toggleModal() {
+  if (!banana123) return;
+  const modal = document.querySelector('#retention-modal');
 
-      if (modal) {
-        modal.classList.toggle('hidden');
-      }
+  if (modal) {
+    modal.classList.toggle('hidden');
+  }
 
-      open = close;
-    }
+  open = !open;
+}
 
-    window.onload = function () {
+window.onload = function () {
+  const overlay = document.querySelector('.modal-overlay');
+  const closeButton = document.querySelector('#close-button');
 
-      const overlay = document.querySelector('.modal-overlay');
-      const closeButton = document.querySelector('#close-button');
+  overlay.addEventListener('click', lockAndClose);
+  closeButton.addEventListener('click', lockAndClose);
+};
 
-      overlay.addEventListener('click', () => toggleModal(false));
-      closeButton.addEventListener('click', () => toggleModal(false));
-    }
+window.addEventListener('mousemove', ({ clientY }) => {
+  if (!banana123) return;
+  if (clientY < 1 && !open) {
+    toggleModal();
+  }
+});
 
-    window.addEventListener('mousemove', ({ clientY }) => {
-      if (clientY < 100 && !open) {
-        toggleModal()
-        open = true;
-      }
-    });
+window.onkeydown = ({ which }) => {
+  if (which === 27 && open) {
+    toggleModal();
+  }
+};
 
-    window.onkeydown = ({ which }) => {
-      if (which === 27 && open) {
-        toggleModal(false);
-      }
-    }
+
+
+function lockAndClose() {
+  toggleModal();
+  banana123 = false;
+  setTimeout(() => (banana123 = true), 5000);
+}
