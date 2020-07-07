@@ -100,6 +100,8 @@ margin-right: 2.5em;
 }
 /* Fim da seção 1 */
 
+
+
 #cabecalho {
   background-color: GREY;
 }
@@ -121,6 +123,7 @@ margin-right: 2.5em;
   height: 100%;
   background-color: rgb(255, 255, 255);
 }
+
 /* Inicio Section 2 */
 .container-fluid {
   position: relative;
@@ -137,7 +140,7 @@ margin-right: 2.5em;
   position: absolute;
   left: 0px;
   top: 0px;
-  min-width: 860px;
+  width:100%;
   z-index: -1;
 }
 
@@ -154,12 +157,26 @@ margin-right: 2.5em;
 .r1 {
   width: 100%;
   height: auto;
-  margin-top: 45vw;
-  background-color: transparent;
+  margin-top: 50.5vw;
+  background-color: #006eea;
   left: 0;
   margin-left: 0;
   margin-right: 0;
 }
+
+@media screen and (min-width: 865px) {
+  .r1 {
+    margin-top: 52vw;
+  }
+}
+@media screen and (max-width: 565px) {
+  .r1 {
+    margin-top: 52vw;
+  }
+}
+
+
+
 
 /* Cartão host*/
 .card {
@@ -176,7 +193,6 @@ margin-right: 2.5em;
   background-color:  transparent;
   border: none;
   color: #fff;
-
   }
 
 .img-circ{
@@ -200,13 +216,6 @@ margin-right: 2.5em;
   line-height: 53px;
   text-align: center;
   padding: 0;
-  
-}
-#fundo{
-  background-color:#006eea;
-}
-#fundo1{
-  background-color:#006eea ;
 }
 
 .card-footer { 
@@ -221,12 +230,35 @@ margin-right: 2.5em;
   line-height: 41px;
   text-align: center;
   border: none;
-  background-color: #006eea;
+  background-color: transparent;
   margin-bottom: 7.8vw;
   padding: 0;
 }   
 
+.p1 {
+  width: 23.5vw;
+  height: auto;
+  max-width: 335px;
+  font-weight: 300;
+  font-size: 28px;
+  line-height: 41px;
+  text-align: center;
+  border: none;
+  background-color: transparent;
+  margin-bottom: 142px;
+  padding: 0;
+}
 
+
+
+/*@media (min-width: 992px) {
+  .navbar-expand-lg .navbar-collapse {
+    display: -ms-flexbox!important;
+    display: flex!important;
+    -ms-flex-preferred-size: auto;
+    flex-basis: auto;
+
+}*/
 
 /* Fim Section 2 */
 
@@ -599,4 +631,3 @@ h6 {
   background: #000000;
   color: #ffffff;
 }
-
