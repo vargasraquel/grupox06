@@ -555,21 +555,21 @@ font-size: 0.8em;
 
 @keyframes modal-appear {
   from {
-      opacity: 0;
+    opacity: 0;
   }
   to {
-      opacity: 1;
+    opacity: 1;
   }
 }
 
 @keyframes modal-content-appear {
   from {
-      opacity: 0;
-      transform: translateY(100px);
+    opacity: 0;
+    transform: translateY(100px);
   }
   to {
-      opacity: 1;
-      transform: translateY(0);
+    opacity: 1;
+    transform: translateY(0);
   }
 }
 
@@ -605,7 +605,7 @@ font-size: 0.8em;
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #68075d;
+  background: #2717E6;
   margin: 0 auto;
   position: relative;
   opacity: 0;
@@ -614,12 +614,39 @@ font-size: 0.8em;
   animation-delay: 300ms;
   text-align: center;
   color: #ffffff;
+  border-radius: 20px;
 }
 
-h6 {
+.modal-container h4 {
+  font-family: Oswald;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 33px;
+  text-align: center;
+}
+
+.modal-container h6 {
   color: #ffffff;
   text-align: center;
+  margin-top: 20px;
+  font-size: 15px;
+  font-family: Oswald;
+  font-style: normal;
+  font-weight: normal;
+}
+
+.modal-container input {
+  color: #2717E6;
+  text-align: center;
   margin-top: 10px;
+  border-radius: 20px;
+  border: none;
+  width: 326px;
+  height: 50px;
+  font-size: 22px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-weight: bold;
 }
 
 .modal-container .modal-content>button {
@@ -645,20 +672,4 @@ h6 {
 
 .modal-container .modal-content * {
   width: 100%;
-}
-
-.modal-container .modal-content form>input {
-  height: 42px;
-  border: 1px solid #69075e;
-  color: #69075e;
-  outline: 0;
-  font-size: 20px;
-  padding: 0 15px;
-  margin-top: 16px;
-  transition: all 200ms ease;
-}
-
-.modal-container .modal-content form>input:hover {
-  background: #000000;
-  color: #ffffff;
 }

@@ -75,23 +75,25 @@
 
 <body>
   <!--POP EXIT -->
-<div id="retention-modal" class="modal-container hidden">
-  <div class="modal-overlay"></div>
-  <div class="modal-content">
+  <div id="retention-modal" class="modal-container hidden">
+    <div class="modal-overlay"></div>
+    <div class="modal-content">
       <button type="button" class="close" data-dismiss="modal" id="close-button" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
+        <span style="
+        margin-right: 10px;
+    " aria-hidden="true">&times;</span>
       </button>
-      <form>
-          <h3>Por que está saindo da página?</h3>
-          <input id="email" name="email" type="email" placeholder="Digite aqui o seu e-mail."
-              title="Digite um email válido" required />
-          <input id="name" name="name" type="hidden" value="usuariomodal" required />
-          <input type="submit" value="Enviar" />
-          <h6>Isso é um teste de pop-up! Por favor, não vá embora.</h6>
-          <input name="redirectTo" type="hidden" value="https://www.google.com/" />
+      <form method="POST" action="https://www.google.com/">
+        <h1>Já vai?</h1>
+        <h4>Caso tenha esquecido de se inscrever no evento, aqui está a sua chance!</h4>
+        <a href="http://www.google.com/" target="_blank">
+          <input type="button" value="Quero me inscrever" />
+        </a>
+        <h6>Quinta-feira, 09 de Julho de 2020 às 19h (Horário de Brasilia)</h6>
+        <input name="redirectTo" type="hidden" value="https://www.google.com/" />
       </form>
+    </div>
   </div>
-</div>
   <!--INCIO NAV !-->
   <nav class="navbar navbar-fixed-top navbar-expand-lg navbar-light bg-white" id="edit">
     <div class="container">
