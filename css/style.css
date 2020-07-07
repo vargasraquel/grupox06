@@ -1,3 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&display=swap');
+
+body {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 300;
+  overflow-x: hidden;
+}
+
+/* Cabeçalho*/
+.topo {
+  margin: 2vw auto;
+}
+
+/* Texto do cabeçalho */
+.textoevento h1 {
+  text-transform: uppercase;
+  font-size: 2.5em;
+  margin: 3vw auto;
+}
+
+.textoevento p {
+  line-height: 2em;
+}
+
+/* Imagem do cabeçalho */
+.imagemhead {
+  display: block;
+}
+
+.imagemhead img {
+  z-index: -1;
+  position: relative;
+  right: 6vw;
+  width: 70vw;
+}
+
+/* Logos embaixo da imagem */
+.logos {
+  display: flex;
+  margin-top: 2vw;
+  margin-left: 10%;
+}
+
+.logos p {
+  align-items: flex-start;
+}
+
+.logos img {
+  width: 20vw;
+  margin-left: 2vw;
+}
+
+/* Layout do contador */
+.evento p {
+  margin: 1.8em auto;
+}
+
+.numeros {
+  display: block;
+}
+
+.contador {
+  font-size: 1.7em;
+  padding: 0.5em 0.7em;
+  border: solid 1px #0093CB;
+  border-radius: 4px;
+  display: inline;
+}
+
+.data {
+  display: flex;
+  flex-direction: row;
+  color: #0093CB;
+  font-weight: 300;
+}
+
+.contagem {
+margin-right: 2.5em;
+}
+
+/* topo responsivo */
+
+@media only screen and (max-width: 550px) {
+  .imagemhead img {
+    width: 100%;
+    margin: auto;
+  }
+
+  .logos img {
+    width: 30vw;
+    margin: auto;
+  }
+}
+/* Fim da seção 1 */
+
 #cabecalho {
   background-color: GREY;
 }
