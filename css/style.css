@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&display=swap');
 
+
+/** SCROLL SMOOTH **/
+html {
+  scroll-behavior: smooth;
+}
+/** FIM DO SCROLL SMOOTH **/
+
 body {
   font-family: 'Oswald', sans-serif;
   font-weight: 300;
