@@ -39,13 +39,13 @@ body {
   z-index: -1;
   position: relative;
   right: 6vw;
-  width: 70vw;
+  width: 60vw;
 }
 
 /* Logos embaixo da imagem */
 .logos {
   display: flex;
-  margin-top: -10vw;
+  margin-top: -8vw;
 }
 
 .logos p {
