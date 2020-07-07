@@ -25,13 +25,16 @@
   	hours = `0${hours}`;
     }
    
-    // Mostrar o resultado com a id="relogio"
+    // Mostrar o resultado com a id="relogio" e id="relogio1"
     document.getElementById("relogio").innerHTML = `<div class='contador'>${days}</div> <div class='contador'>${hours}</div> <div class='contador'> ${minutes}</div> <div class='contador'> ${seconds}</div>`;
-        
+    document.getElementById("relogio1").innerHTML = `<div class='contador1'>${days}</div> <div class='contador1'>${hours}</div> <div class='contador1'> ${minutes}</div> <div class='contador1'> ${seconds}</div>`;
+    
+
     // Quando a contagem acabar, mostrar 
     if (distance < 0) {
       clearInterval(x);
-      document.getElementById("demo").innerHTML = "Tempo esgotado.";
+      document.getElementById("relogio").innerHTML = "Tempo esgotado.";
+      document.getElementById("relogio1").innerHTML = "Tempo esgotado.";
     }
   
 }, 1000);
