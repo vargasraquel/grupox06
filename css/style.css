@@ -11,6 +11,10 @@ body {
   margin: 2vw auto;
 }
 
+.container-x1 {
+  margin-right: 0;
+}
+
 /* Texto do cabeçalho */
 .textoevento h1 {
   text-transform: uppercase;
@@ -25,6 +29,10 @@ body {
 /* Imagem do cabeçalho */
 .imagemhead {
   display: block;
+}
+
+.con1 { 
+  right: 0;
 }
 
 .imagemhead img {
@@ -98,7 +106,9 @@ margin-right: 2.5em;
 
 #logodesk {
   width: 50px;
+
 }
+
 
 #banner1 {
   width: 100%;
@@ -166,7 +176,7 @@ margin-right: 2.5em;
   background-color:  transparent;
   border: none;
   color: #fff;
-  margin-top: ;
+
   }
 
 .img-circ{
