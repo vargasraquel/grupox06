@@ -3,24 +3,24 @@ let closeModal1 = true;
 
 function toggleModal() {
   if (!closeModal1) return;
-  const modal = document.querySelector('#retention-modal');
+  const modal = document.querySelector("#retention-modal");
 
   if (modal) {
-    modal.classList.toggle('hidden');
+    modal.classList.toggle("hidden");
   }
 
   open = !open;
 }
 
 window.onload = function () {
-  const overlay = document.querySelector('.modal-overlay');
-  const closeButton = document.querySelector('#close-button');
+  const overlay = document.querySelector(".modal-overlay");
+  const closeButton = document.querySelector("#close-button");
 
-  overlay.addEventListener('click', lockAndClose);
-  closeButton.addEventListener('click', lockAndClose);
+  overlay.addEventListener("click", lockAndClose);
+  closeButton.addEventListener("click", lockAndClose);
 };
 
-window.addEventListener('mousemove', ({ clientY }) => {
+window.addEventListener("mousemove", ({ clientY }) => {
   if (!closeModal1) return;
   if (clientY < 1 && !open) {
     toggleModal();
@@ -32,8 +32,6 @@ window.onkeydown = ({ which }) => {
     toggleModal();
   }
 };
-
-
 
 function lockAndClose() {
   toggleModal();
