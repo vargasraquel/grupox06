@@ -74,263 +74,313 @@
 </head>
 
 <body>
-  <!--POP EXIT -->
-  <div id="retention-modal" class="modal-container hidden">
-    <div class="modal-overlay"></div>
-    <div class="modal-content">
-      <button type="button" class="close" data-dismiss="modal" id="close-button" aria-label="Close">
-        <span style="
-        margin-right: 10px;
-    " aria-hidden="true">&times;</span>
-      </button>
-      <form method="POST" action="https://www.google.com/">
-        <h1>Já vai?</h1>
-        <h4>Caso tenha esquecido de se inscrever no evento, aqui está a sua chance!</h4>
-        <a href="http://www.google.com/" target="_blank">
-          <input type="button" value="Quero me inscrever" />
-        </a>
-        <h6>Quinta-feira, 09 de Julho de 2020 às 19h (Horário de Brasilia)</h6>
-        <input name="redirectTo" type="hidden" value="https://www.google.com/" />
-      </form>
-    </div>
-  </div>
-  <!--INCIO NAV !-->
-  <nav class="navbar navbar-fixed-top navbar-expand-lg navbar-light bg-white" id="edit">
-    <div class="container">
-        <a class="navbar-brand h1 mb-0" href=""> </a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSite">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSite">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item ">
-          <li class="nav-item"><a class="nav-link" href="#home"><span style="color:black; font-size:22px;">Home</span></a>
-          </li>
-          <li class="nav-item"><a class="nav-link" href="#palestrantes"><span
-                style="color:black; font-size:22px;">Palestrantes</span></a></li>
-          <li class="nav-item"><a class="nav-link" href="#programacao"><span
-                style="color:black; font-size:22px;">Programação</span></a></li>
-          </li>
-        </ul>
+  <body>
+    <!--POP EXIT -->
+    <div id="retention-modal" class="modal-container hidden">
+      <div class="modal-overlay"></div>
+      <div class="modal-content">
+        <button type="button" class="close" data-dismiss="modal" id="close-button" aria-label="Close">
+          <span style="
+          margin-right: 10px;
+      " aria-hidden="true">&times;</span>
+        </button>
+        <form method="POST" action="https://www.google.com/">
+          <h1>Já vai?</h1>
+          <h4>Caso tenha esquecido de se inscrever no evento, aqui está a sua chance!</h4>
+          <a href="http://www.google.com/" target="_blank">
+            <input type="button" value="Quero me inscrever" />
+          </a>
+          <h6>Quinta-feira, 09 de Julho de 2020 às 19h (Horário de Brasilia)</h6>
+          <input name="redirectTo" type="hidden" value="https://www.google.com/" />
+        </form>
       </div>
     </div>
-  </nav>
-
-  <!-- SECTION 1-->
-  <section>
-    <div class="container-xl" id="home">
-      <div class="row topo">
-        <div class="col-md-4">
-          <div class="textoevento">
-            <p><strong>Data:</strong> 09/07<br>
-            <strong>Horário:</strong> 19h (horário de Brasília) </p>
-            <h1>A escola e a formação de criadores</h1>
-            <p>Desenvolvendo a aquisição e compartilhamento de conhecimento para a construção de uma sociedade mais justa.</p>
-          </div>
+    <!--INCIO NAV !-->
+    <nav class="navbar navbar-fixed-top navbar-expand-lg navbar-light bg-white" id="edit">
+      <div class="container">
+          <a class="navbar-brand h1 mb-0" href=""> </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSite">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSite">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item ">
+            <li class="nav-item"><a class="nav-link" href="#home"><span style="color:black; font-size:22px;">Home</span></a>
+            </li>
+            <li class="nav-item"><a class="nav-link" href="#palestrantes"><span
+                  style="color:black; font-size:22px;">Palestrantes</span></a></li>
+            <li class="nav-item"><a class="nav-link" href="#programacao"><span
+                  style="color:black; font-size:22px;">Programação</span></a></li>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
   
-          <div class="evento">
-            <h5>O EVENTO COMEÇA EM:</h5>
-                
-            <div class="numeros">
-                  <p id="relogio"></p>
-                <div class="data">
-                    <div class="contagem">Dias</div>
-                    <div class="contagem">Hrs.</div>
-                    <div class="contagem">Mins.</div>
-                    <div class="contagem">Segs.</div>
-                </div>
+    <!-- SECTION 1-->
+    <section>
+      <div class="container-xl" id="home">
+        <div class="row topo">
+          <div class="col-md-4">
+            <div class="textoevento">
+              <p><strong>Data:</strong> 09/07<br>
+              <strong>Horário:</strong> 19h (horário de Brasília) </p>
+              <h1>A escola e a formação de criadores</h1>
+              <p>Desenvolvendo a aquisição e compartilhamento de conhecimento para a construção de uma sociedade mais justa.</p>
+            </div>
+    
+            <div class="evento">
+              <h5>O EVENTO COMEÇA EM:</h5>
+                  
+              <div class="numeros">
+                    <p id="relogio"></p>
+                  <div class="data">
+                      <div class="contagem">Dias</div>
+                      <div class="contagem">Hrs.</div>
+                      <div class="contagem">Mins.</div>
+                      <div class="contagem">Segs.</div>
+                  </div>
+              </div>
             </div>
           </div>
-        </div>
-
-        <div class="col-md-3">
-          <div class="imagemhead">
-            <img alt="banner" src="imagens/5514.png" >
+  
+          <div class="col-md-3">
+            <div class="imagemhead">
+              <img alt="https://www.freepik.com/free-photos-vectors/school'>School vector created by pch.vector - www.freepik.com" src="imagens/5514.png">
+            </div>
+    
+          <div class="logos">
+            <p><strong>Organização:</strong></p>
+            <img src="imagens/futuramente.jpg" alt="Logo Futuramente">
           </div>
-  
-        <div class="logos">
-          <p><strong>Organização:</strong></p>
-          <img src="imagens/futuramente.jpg" alt="Logo Futuramente">
-        </div>
-        </div>
-      
+          </div>
+        
+      </div>
     </div>
-  </div>
+    
+    </section>
   
-  </section>
-
-  <!-- SECTION 2  -->
-  <div class="img-onda">
-    <div class="container-fluid">
-        <img class="img-fluid" alt="Bootstrap Image Preview" src="imagens/2509688.png"/>
-            <div class="row">
+    <!-- SECTION 2  -->
+    <div class="img-onda">
+      <div class="container-fluid">
+          <img class="img-fluid" alt="https://www.freepik.com/free-photos-vectors/business'>Business vector created by freepik - www.freepik.com" src="imagens/2509688.png"/>
+              <div class="row">
+                  <div class="col-md-12 c1">
+                      <div class="row r1">
+                          <div class="col-md-6 c1 ">
+                              <div class="card">
+                                  <div>
+                                      <img alt="Sergio_Junior" class="img-circle img-circ" src="imagens/Sergio_Junior.jpg">
+                                  </div>
+                                  <div class="card-body">
+                                      <p class="card-text">
+                                          Sergio Junior
+                                      </p>
+                                  </div>
+                                  <div class="card-footer">
+                                      <p><br>
+                                        <span class="nome"> Coordenador da Metodologia Maker nos Colégio CEL<br> e Liceu Franco Brasileiro
+                                        </span> <br><br>
+                                        <a class="linkedin" href="https://www.linkedin.com/in/s%C3%A9rgio-j%C3%BAnior-7a100484/" target="_blank"> https://www.linkedin.com/in/sérgio-júnior-7a100484</a>
+                                      </p>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="col-md-6 c1">
+                              <div class="card">
+                                  <h5 class="img-circle">
+                                      <img alt="Aline_Santos" class="img-circ" src="imagens/Aline-Santos.jpg">
+                                  </h5>
+                                  <div class="card-body">
+                                      <p class="card-text">
+                                        Aline Santos
+                                      </p>
+                                  </div>
+                                  <div class="card-footer">
+                                      <p><br>
+                                        <span class="nome"> Coordenadora de Projetos <br> no UX para Minas Pretas</span> <br>
+                                        Liderou projetos de formação de professores para educação inclusiva em escolas públicas.<br>
+                                        <a class="linkedin" href="https://www.linkedin.com/in/alllinne/" target="_blank"> www.linkedin.com/in/alllinne </a>
+                                      </p>
+                                  </div>
+                              </div>
+                          </div>
+                      </div> 
+                  </div>
+              </div>
+              <div class="row">
                 <div class="col-md-12 c1">
-                    <div class="row r1">
-                        <div class="col-md-4 c1 ">
-                            <div class="card"  id="palestrantes">
-                                <div>
-                                    <img class="img-circle img-circ" src="imagens/face.png">
-                                </div>
-                                <div class="card-body">
-                                    <p class="card-text">
-                                        Host 1
-                                    </p>
-                                </div>
-                                <div class="card-footer">
-                                    <p>
-                                        Vamos enaltecer essa galera linda que vai falar durante o nosso evento. 
-                                        Aqui não tem texto o suficiente então vamos enxer linguiça para parecer 
-                                        que tem algo relevante
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4 c2">
+                    <div class="row r2">
+                        <div class="col-md-6 c1 ">
                             <div class="card">
-                                <h5 class="img-circle">
-                                    <img class="img-circ" src="imagens/face.png">
-                                </h5>
+                                <div>
+                                  <img alt="Julia_Moura" class="img-circ" src="imagens/Julia-Moura.jpg">
+                                </div>
                                 <div class="card-body">
                                     <p class="card-text">
-                                        Host 2
+                                        Julia Moura
                                     </p>
                                 </div>
                                 <div class="card-footer">
-                                    <p>
-                                        Vamos enaltecer essa galera linda que vai falar durante o nosso evento. 
-                                        Aqui não tem texto o suficiente então vamos enxer linguiça para parecer 
-                                        que tem algo relevante
-                                    </p>
+                                  <p><br>
+                                    <span class="nome"> Executiva da TEC Educação</span><br>
+                                    Mestre Empreendedorismo Social, Hunt Business School
+                                    <a class="linkedin" href="https://www.linkedin.com/in/alllinne/" target="_blank"> www.linkedin.com/in/alllinne </a>
+                                  </p>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-4 c2">
+                        <div class="col-md-6 c1 ">
                           <div class="card">
-                              <h5 class="img-circle">
-                                  <img class="img-circ" src="imagens/face.png">
-                              </h5>
+                              <div>
+                                <img alt="Natasha_Bontempi" class="img-circ" src="imagens/Natasha-Bontempi.jpg">
+                              </div>
                               <div class="card-body">
                                   <p class="card-text">
-                                      Host 3
+                                      Natasha Bontempi
                                   </p>
                               </div>
                               <div class="card-footer">
-                                  <p>
-                                      Vamos enaltecer essa galera linda que vai falar durante o nosso evento. 
-                                      Aqui não tem texto o suficiente então vamos enxer linguiça para parecer 
-                                      que tem algo relevante
-                                  </p>
+                                <p><br>
+                                  <span class="nome">Palestrante e Consultora de RH </span> <br>
+                                  Professora de Pós Graduação em Habilidades Socioemocionais<br>
+                                  <a class="linkedin" href="https://www.linkedin.com/in/alllinne/" target="_blank"> www.linkedin.com/in/alllinne </a>
+                                </p>
                               </div>
                           </div>
+                        </div>
                       </div>
                     </div> 
                 </div>
             </div>
-        </div>
+          </div>
+      </div>
     </div>
-  </div>
-
-<!-- SECTION 3-->
-<div class="container-fluid" id="banner3">
-  <div class="row" id="programacao">
-      <div class="col-xl-6 col-md-12 col-lg-12 row "id="banner4">
-          <div class = "container" id="cont_banner4">
-              <div class = "container" id="detalhes">
+  
+  <!-- SECTION 3-->
+  <div class="container-fluid" id="banner3">
+      <div class="row" id="banner4">
+          <div class="col-md-12">
+              <div class="row">
+                  <div class="col-md-6" >
+                      <div class="row">
+                          <div class="col-md-12">
+                <div class = "container" id="detalhes">
                   DETALHES DO EVENTO
-              </div>
-              <div class = "container text-justify" id="detalhes_1">
-                  Insira aqui um texto bacanudo para falar mais detalhes sobre o evento, o porque ele é importânte e várias outras coisas que podem ser interessante para o público, Por enquanto esse espaço não tem nada interessante escrito, é só um teste para entendermos melhor o layout.
-              </div>
-              <div class = "container" id="start_ev">
-              O EVENTO COMEÇA EM:
-              </div>
-              <div class = "container" id="start_ev1">
-
-                <div class="numeros">
-                  <p id="relogio1"></p>
-                <div class="data">
-                    <div class="contagem1">Dias</div>
-                    <div class="contagem1">Hrs.</div>
-                    <div class="contagem1">Mins.</div>
-                    <div class="contagem1">Segs.</div>
                 </div>
-            </div>
-
+                <div class = "container" id="detalhes_1">
+                  Insira aqui um texto bacanudo para falar mais detalhes sobre o evento, 
+                  o porque ele é importânte e várias outras coisas que podem ser interessante para o público, 
+                  Por enquanto esse espaço não tem nada interessante escrito, é só um teste para entendermos melhor o layout.
+                </div>
+                          </div>
+                      </div>
+                    <div class="row">
+                      <div class="col-md-12">
+                        <div class = "container" id="start_ev">
+                          <div>
+                            O EVENTO COMEÇA EM:
+                          </div>
+                          <div class = "container n1" id="start_ev1">
+                            <div class="numeros">
+                              <p id="relogio1"></p>
+                              <div class="data">
+                                  <div class="contagem1">Dias</div>
+                                  <div class="contagem1">Hrs.</div>
+                                  <div class="contagem1">Mins.</div>
+                                  <div class="contagem1">Segs.</div>
+                              </div>
+                            </div>
+                          </div>
                         </div>
-              <div class = "container" id="btn_insc">
-                  <a href="link inscrever-se" id="btn_insc1" class="btn btn-secondary btn-lg active "role="button" aria-pressed="true" >INSCREVA-SE</a>
-              </div>
-              <div class = "container" id="btn_ind">
-                  <a href="link inscrever-se" id="btn_ind1" class="btn btn-secondary btn-lg active "role="button" aria-pressed="true" >INDIQUE O EVENTO</a>
-              </div>
-              <div class = "container" id="siga">
-                  Nos siga nas redes sociais:
-              </div>
-              <div class ="container" id="redes">
-                  <span> <a href="https://www.linkedin.com/company/futuramente-maker"> <img src="imagens/in.png" alt="Linkedin"></a></span>      <span> <a href="https://www.instagram.com/futuramente.maker/"><img src="imagens/insta.png" alt="Instagram"> </a></span>       <span><a href="https://www.facebook.com/Futuramente-104190288031994"><img src="imagens/face.png" alt="Facebook"></a> </span>
-              </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                          <div class="col-md-12 c2">
+                            <div class = "container" id="btn_insc">
+                              <a href="link inscrever-se" id="btn_insc1" class="btn btn-secondary btn-lg active "role="button" aria-pressed="true" >INSCREVA-SE</a>
+                            </div>
+                            <div class = "container" id="btn_ind">
+                              <a href="link inscrever-se" id="btn_ind1" class="btn btn-secondary btn-lg active "role="button" aria-pressed="true" >INDIQUE O EVENTO</a>
+                            </div>
+                        </div>
+                      </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class = "container" id="data_ev">
+                      <hr id = "hr">
+                      09.07.2020
+                      <hr id = "hr">
+                    </div>
+                    <div class = "container hora_1">
+                      <p class="tema">ABERTURA - <strong>19:00</strong></p>
+                    </div>
+                    <div class = "container hora_1">
+                      <p class="tema"> TEMA #1 - <strong>19:05</strong></p>
+                      Educação e Maker Culture
+                      <br>
+                      + Q/A
+                    </div>
+                    <div class = "container hora_1">
+                      <p class="tema">TEMA #2 - <strong>19:40</strong></p>
+                      Maker Culture e o Mercado de Trabalho
+                      <br>
+                      + Q/A
+                    </div>
+                    <div class = "container hora_1">
+                        <p class="tema">Encerramento -<strong>20:30</strong></p>
+                    </div>
+                  </div>
+                </div>
+                  </div>
+                
+          <div class="row">
+        <div class="col-md-6">
+          </div>
+          <div class = "container" id="siga">
+              Nos siga nas redes sociais:
+          </div>
+          <div class ="container" id="redes">
+              <span> 
+                <a href="https://www.linkedin.com/company/futuramente-maker"> 
+                  <img src="imagens/in.png" alt="Linkedin">
+                </a>
+              </span> 
+              <span>
+                <a href="https://www.instagram.com/futuramente.maker/">
+                  <img src="imagens/insta.png" alt="Instagram"> 
+                </a>
+              </span>
+              <span>
+                <a href="https://www.facebook.com/Futuramente-104190288031994">
+                  <img src="imagens/face.png" alt="Facebook">
+                </a>
+              </span>
+          </div>
+        </div>
+          </div>
+          <div class="col-md-6">
           </div>
       </div>
-    
-      <div class="col-xl-5 col-md-12 col-lg-12 row"id="banner5">
-          <div class="container" id="horários">
-              <div class = "container" id="data_ev">
-                <hr id = "hr">
-                09.07.2020
-                <hr id = "hr">
-              </div>
-              <div class = "container" id="hora_1">
-                  <p id="tema">ABERTURA - <strong>19:00</strong></p>
-                 Frase bacaninha descritiva do tema e quem vai falar
-              </div>
-              <div class = "container" id="hora_1">
-                  <p id="tema"> TEMA #1 - <strong>19:15</strong></p>
-                  Frase bacaninha descritiva do tema e quem vai falar
-                  <p id="inter"><strong>19:35</strong> Dinâmica</p>
-               </div>
-               <div class = "container" id="hora_1">
-                  <p id="tema">TEMA #2 - <strong>19:40</strong></p>
-                  Frase bacaninha descritiva do tema e quem vai falar
-                  <p id="inter"><strong>19:35</strong> Intervalo</p>
-               </div>
-               <div class = "container" id="hora_1">
-                  <p id="tema">TEMA #3 -<strong>20:15</strong></p>
-                  Frase bacaninha descritiva do tema e quem vai falar
-               </div>
-               <div class = "container" id="hora_1">
-                  <p id="tema">TEMA #4 - <strong>20:35</strong></p>
-                  Frase bacaninha descritiva do tema e quem vai falar
-               </div>
-               <div class = "container" id="hora_1">
-                  <p id="tema">RESUMO -<strong>21:05</strong></p>
-                  Frase bacaninha descritiva do tema e quem vai falar
-               </div>
-               <div class = "container" id="hora_1">
-                  <p id="tema">ENCERRAMENTO - <strong>21:15</strong></p>
-                  Frase bacaninha descritiva do tema e quem vai falar
-               </div>
-          </div>
-      </div>
-
   </div>
-</div>
-
-  <!-- CONTADOR JS -->
-    <script src="js/countdown.js"></script>
-
-
-
-  <!--JS BOOTSTRAP-->
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-    crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-    crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
-    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
-    crossorigin="anonymous"></script>
-  <script src="./js/modal.js"></script>
-</body>
-
-</html>
+  
+    <!-- CONTADOR JS -->
+      <script src="js/countdown.js"></script>
+  
+  
+  
+    <!--JS BOOTSTRAP-->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+      crossorigin="anonymous"></script>
+    <script src="./js/modal.js"></script>
+  </body>
+  
+  </html>
+  
