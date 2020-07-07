@@ -1,8 +1,8 @@
 let open = false;
-let banana123 = true;
+let closeModal1 = true;
 
 function toggleModal() {
-  if (!banana123) return;
+  if (!closeModal1) return;
   const modal = document.querySelector('#retention-modal');
 
   if (modal) {
@@ -21,7 +21,7 @@ window.onload = function () {
 };
 
 window.addEventListener('mousemove', ({ clientY }) => {
-  if (!banana123) return;
+  if (!closeModal1) return;
   if (clientY < 1 && !open) {
     toggleModal();
   }
@@ -37,6 +37,6 @@ window.onkeydown = ({ which }) => {
 
 function lockAndClose() {
   toggleModal();
-  banana123 = false;
-  setTimeout(() => (banana123 = true), 5000);
+  closeModal1 = false;
+  setTimeout(() => (closeModal1 = true), 5000);
 }
