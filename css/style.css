@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&display=swap');
+
 body {
   font-family: 'Oswald', sans-serif;
   font-weight: 300;
@@ -6,7 +7,6 @@ body {
 }
 
 /* Cabeçalho*/
-
 .topo {
   margin: 2vw auto;
 }
@@ -16,7 +16,6 @@ body {
 }
 
 /* Texto do cabeçalho */
-
 .textoevento h1 {
   text-transform: uppercase;
   font-size: 2.5em;
@@ -28,12 +27,11 @@ body {
 }
 
 /* Imagem do cabeçalho */
-
 .imagemhead {
   display: block;
 }
 
-.con1 {
+.con1 { 
   right: 0;
 }
 
@@ -45,7 +43,6 @@ body {
 }
 
 /* Logos embaixo da imagem */
-
 .logos {
   display: flex;
   margin-top: -10vw;
@@ -61,7 +58,6 @@ body {
 }
 
 /* Layout do contador */
-
 .evento p {
   margin: 1.8em auto;
 }
@@ -86,7 +82,7 @@ body {
 }
 
 .contagem {
-  margin-right: 2.5em;
+margin-right: 2.5em;
 }
 
 /* Layout do contador seção 3 */
@@ -127,13 +123,15 @@ font-size: 0.8em;
     width: 100%;
     margin: auto;
   }
+
   .logos img {
     width: 30vw;
     margin: auto;
   }
 }
-
 /* Fim da seção 1 */
+
+
 
 #cabecalho {
   background-color: GREY;
@@ -141,7 +139,9 @@ font-size: 0.8em;
 
 #logodesk {
   width: 50px;
+
 }
+
 
 #banner1 {
   width: 100%;
@@ -156,13 +156,13 @@ font-size: 0.8em;
 }
 
 /* Inicio Section 2 */
-
 .container-fluid {
   position: relative;
   display: inline-block;
   width: 100%;
   height: 100%;
   padding: 0;
+  
 }
 
 .img-fluid {
@@ -171,7 +171,7 @@ font-size: 0.8em;
   position: absolute;
   left: 0px;
   top: 0px;
-  width: 100%;
+  width:100%;
   z-index: -1;
 }
 
@@ -200,19 +200,20 @@ font-size: 0.8em;
     margin-top: 52vw;
   }
 }
-
 @media screen and (max-width: 565px) {
   .r1 {
     margin-top: 52vw;
   }
 }
 
-/* Cartão host*/
 
+
+
+/* Cartão host*/
 .card {
   width: 100%;
   height: auto;
-  margin-left: auto;
+  margin-left: auto;    
   margin-right: auto;
   font-family: "Oswald";
   font-style: normal;
@@ -220,12 +221,12 @@ font-size: 0.8em;
   font-size: 36px;
   line-height: 53px;
   text-align: center;
-  background-color: transparent;
+  background-color:  transparent;
   border: none;
   color: #fff;
-}
+  }
 
-.img-circ {
+.img-circ{
   width: 23.5vw;
   height: 23.5vw;
   max-width: 335px;
@@ -248,7 +249,7 @@ font-size: 0.8em;
   padding: 0;
 }
 
-.card-footer {
+.card-footer { 
   width: 23.5vw;
   height: auto;
   max-width: 335px;
@@ -263,7 +264,7 @@ font-size: 0.8em;
   background-color: transparent;
   margin-bottom: 7.8vw;
   padding: 0;
-}
+}   
 
 .p1 {
   width: 23.5vw;
@@ -279,6 +280,8 @@ font-size: 0.8em;
   padding: 0;
 }
 
+
+
 /*@media (min-width: 992px) {
   .navbar-expand-lg .navbar-collapse {
     display: -ms-flexbox!important;
@@ -292,75 +295,72 @@ font-size: 0.8em;
 
 /*Section 3 */
 
-#banner3 {
+#banner3{
   width: 100%;
   height: 100%;
   background-color: #0B6EE6;
 }
-
-#banner4 {
-  background-color: white;
+#banner4{
+  background-color:white;
   margin-left: 5%;
 }
-
-#banner5 {
+#banner5{
   background-color: white;
 }
-
-#data_ev {
-  text-align: center;
+#data_ev{
+  text-align:center;
 }
-
-#hr {
+#hr{
   background-color: #0093CB;
 }
-
 /* MEDIA SECTION 3 */
-
-@media screen and (max-width: 768px) {
-  #banner4 {
-    margin-left: 0px;
+@media screen and (max-width: 768px){
+  #banner4{
+      margin-left: 0px;
   }
-  #banner5 {
-    margin-left: 0px;
+  #banner5{
+      margin-left: 0px;
   }
-  #data_ev {
-    text-align: center;
+  #data_ev{
+    text-align:center;
   }
-  #hr {
+  #hr{
     background-color: #0093CB;
   }
-  #detalhes {
+  #detalhes{
     font-family: 'Oswald', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 32px;
     line-height: 47px;
     padding-top: 75px;
+   
   }
-  #detalhes_1 {
-    font-family: 'Oswald', sans-serif;
-    font-style: normal;
-    font-style: normal;
-    font-size: 18px;
-    padding-top: 4px;
+  #detalhes_1{
+      font-family: 'Oswald', sans-serif;
+      font-style: normal;
+      font-style: normal;
+      font-size: 18px;
+      padding-top: 4px;
+      
   }
-  #start_ev {
-    font-family: 'Oswald', sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 24px;
-    line-height: 36px;
-    padding-top: 45px;
+  #start_ev{
+      font-family: 'Oswald', sans-serif;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 24px;
+      line-height: 36px;
+      padding-top: 45px;
+      
   }
-  #start_ev1 {
-    font-family: 'Oswald', sans-serif;
-    font-style: normal;
-    font-size: 24px;
-    line-height: 36px;
-    padding-top: 45px;
+  #start_ev1{
+      font-family: 'Oswald', sans-serif;
+      font-style: normal;
+      font-size: 24px;
+      line-height: 36px;
+      padding-top: 45px;
   }
-  #data_ev {
+  #data_ev{
     font-family: 'Oswald', sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -368,56 +368,59 @@ font-size: 0.8em;
     line-height: 36px;
     padding-top: 35px;
     padding-bottom: 25px;
-  }
-  #hora_1 {
-    font-family: 'Oswald', sans-serif;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 18px;
-    line-height: 27px;
-    padding-bottom: 25px;
-    padding-top: 16px;
+}
+  #hora_1{
+      font-family: 'Oswald', sans-serif;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 18px;
+      line-height: 27px;
+      padding-bottom: 25px;
+      padding-top:16px;
   }
 }
-
-@media screen and (max-width: 992px) {
-  #banner4 {
-    margin-left: 0px;
+@media screen and (max-width: 992px){
+  #banner4{
+      margin-left: 0px;
   }
-  #banner5 {
-    margin-left: 0px;
+  #banner5{
+      margin-left: 0px;
   }
-  #detalhes {
+  #detalhes{
     font-family: 'Oswald', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 32px;
     line-height: 47px;
     padding-top: 75px;
+   
   }
-  #detalhes_1 {
-    font-family: 'Oswald', sans-serif;
-    font-style: normal;
-    font-style: normal;
-    font-size: 18px;
-    padding-top: 4px;
+  #detalhes_1{
+      font-family: 'Oswald', sans-serif;
+      font-style: normal;
+      font-style: normal;
+      font-size: 18px;
+      padding-top: 4px;
+      
   }
-  #start_ev {
-    font-family: 'Oswald', sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 24px;
-    line-height: 36px;
-    padding-top: 45px;
+  #start_ev{
+      font-family: 'Oswald', sans-serif;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 24px;
+      line-height: 36px;
+      padding-top: 45px;
+      
   }
-  #start_ev1 {
-    font-family: 'Oswald', sans-serif;
-    font-style: normal;
-    font-size: 24px;
-    line-height: 36px;
-    padding-top: 45px;
+  #start_ev1{
+      font-family: 'Oswald', sans-serif;
+      font-style: normal;
+      font-size: 24px;
+      line-height: 36px;
+      padding-top: 45px;
+      
   }
-  #data_ev {
+  #data_ev{
     font-family: 'Oswald', sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -425,143 +428,127 @@ font-size: 0.8em;
     line-height: 36px;
     padding-top: 35px;
     padding-bottom: 25px;
-  }
-  #hora_1 {
-    font-family: 'Oswald', sans-serif;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 18px;
-    line-height: 27px;
-    padding-bottom: 25px;
-    padding-top: 16px;
-  }
 }
-
+  #hora_1{
+      font-family: 'Oswald', sans-serif;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 18px;
+      line-height: 27px;
+      padding-bottom: 25px;
+      padding-top:16px;
+  }
+  }
 /* FIM MEDIA SECTION 3 */
-
-#detalhes {
-  font-family: 'Oswald', sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 32px;
-  line-height: 47px;
-  padding-top: 75px;
-  padding-left: 75px;
+#detalhes{
+    font-family: 'Oswald', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 47px;
+    padding-top: 75px;
+    padding-left: 75px;
 }
-
-#detalhes_1 {
-  font-family: 'Oswald', sans-serif;
-  font-style: normal;
-  font-style: normal;
-  font-size: 18px;
-  padding-top: 4px;
-  padding-left: 75px;
+#detalhes_1{
+    font-family: 'Oswald', sans-serif;
+    font-style: normal;
+    font-style: normal;
+    font-size: 18px;
+    padding-top: 4px;
+    padding-left: 75px;
 }
-
-#start_ev {
-  font-family: 'Oswald', sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 24px;
-  line-height: 36px;
-  padding-top: 45px;
-  padding-left: 75px;
+#start_ev{
+    font-family: 'Oswald', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    padding-top: 45px;
+    padding-left: 75px;
 }
-
-#start_ev1 {
-  font-family: 'Oswald', sans-serif;
-  font-style: normal;
-  font-size: 24px;
-  line-height: 36px;
-  padding-top: 45px;
-  padding-left: 75px;
+#start_ev1{
+    font-family: 'Oswald', sans-serif;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 36px;
+    padding-top: 45px;
+    padding-left: 75px;
 }
-
-#btn_insc {
-  padding-left: 75px;
-  padding-top: 35px;
+#btn_insc{
+    padding-left: 75px;
+    padding-top: 35px;
 }
-
-#btn_insc1 {
-  background-color: #0B6EE6;
-  color: white;
-  font-family: 'Oswald', sans-serif;
-  width: 200px;
-  border: 1px solid#0B6EE6;
-  border-radius: 75px;
+#btn_insc1{
+    background-color: #0B6EE6;
+    color:white;
+    font-family: 'Oswald', sans-serif;
+    width: 200px;
+    border:1px solid#0B6EE6;
+    border-radius: 75px;
 }
-
-#btn_ind {
-  padding-left: 75px;
-  padding-top: 35px;
+#btn_ind{
+    padding-left: 75px;
+    padding-top: 35px; 
+    
 }
-
-#btn_ind1 {
-  background-color: #2717E6;
-  color: white;
-  font-family: 'Oswald', sans-serif;
-  width: 200px;
-  border: 1px solid#2717E6;
-  border-radius: 75px;
+#btn_ind1{
+    background-color: #2717E6;
+    color:white;
+    font-family: 'Oswald', sans-serif;
+    width: 200px;
+    border:1px solid#2717E6;
+    border-radius: 75px;
 }
-
-#siga {
-  padding-left: 75px;
-  padding-top: 131px;
-  font-family: 'Oswald', sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 24px;
-  line-height: 36px;
-  color: black;
+#siga{
+    padding-left: 75px;
+    padding-top: 131px;
+    font-family: 'Oswald', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 36px;
+    color:black;
 }
-
-#redes {
-  padding-left: 75px;
-  padding-top: 9px;
-  padding-bottom: 101px;
+#redes{
+    padding-left: 75px;
+    padding-top: 9px; 
+    padding-bottom: 101px;
 }
-
-#horarios {
-  color: black;
+#horarios{
+    color:black;
 }
-
-#data_ev {
-  font-family: 'Oswald', sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 24px;
-  line-height: 36px;
-  padding-top: 35px;
-  padding-bottom: 25px;
-  padding-left: 75px;
+#data_ev{
+    font-family: 'Oswald', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    padding-top: 35px;
+    padding-bottom: 25px;
+    padding-left: 75px;
 }
-
-#hora_1 {
-  font-family: 'Oswald', sans-serif;
-  font-style: normal;
-  font-weight: 300;
-  font-size: 18px;
-  line-height: 27px;
-  padding-bottom: 25px;
-  padding-top: 16px;
-  padding-left: 75px;
+#hora_1{
+    font-family: 'Oswald', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 27px;
+    padding-bottom: 25px;
+    padding-top:16px;
+    padding-left: 75px;
 }
-
-#tema {
-  font-family: 'Oswald', sans-serif;
-  font-style: normal;
-  font-weight: 300;
-  font-size: 25px;
-  margin-bottom: 3px;
+#tema{
+    font-family: 'Oswald', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 25px;
+    margin-bottom: 3px;
 }
-
-#inter {
-  margin-top: 10px;
-  padding-left: 5%;
-  margin-bottom: 3px;
+#inter{
+    margin-top: 10px;
+    padding-left: 5%;
+    margin-bottom: 3px;
 }
-
 /*Fim da section 3*/
 
 /** POP-UP **/
@@ -618,7 +605,7 @@ font-size: 0.8em;
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #2717E6;
+  background: #68075d;
   margin: 0 auto;
   position: relative;
   opacity: 0;
@@ -627,39 +614,12 @@ font-size: 0.8em;
   animation-delay: 300ms;
   text-align: center;
   color: #ffffff;
-  border-radius: 20px;
 }
 
-.modal-container h4 {
-  font-family: Oswald;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 22px;
-  line-height: 33px;
-  text-align: center;
-}
-
-.modal-container h6 {
+h6 {
   color: #ffffff;
   text-align: center;
-  margin-top: 20px;
-  font-size: 15px;
-  font-family: Oswald;
-  font-style: normal;
-  font-weight: normal;
-}
-
-.modal-container input {
-  color: #2717E6;
-  text-align: center;
   margin-top: 10px;
-  border-radius: 20px;
-  border: none;
-  width: 326px;
-  height: 50px;
-  font-size: 22px;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  font-weight: bold;
 }
 
 .modal-container .modal-content>button {
@@ -685,4 +645,20 @@ font-size: 0.8em;
 
 .modal-container .modal-content * {
   width: 100%;
+}
+
+.modal-container .modal-content form>input {
+  height: 42px;
+  border: 1px solid #69075e;
+  color: #69075e;
+  outline: 0;
+  font-size: 20px;
+  padding: 0 15px;
+  margin-top: 16px;
+  transition: all 200ms ease;
+}
+
+.modal-container .modal-content form>input:hover {
+  background: #000000;
+  color: #ffffff;
 }
