@@ -406,6 +406,15 @@ font-size: 0.8em;
   margin-left: 2vw;
 }
 
+.textmeio {
+  margin: 1vw 0 1vw 1.5vw;
+  text-align: justify;
+}
+
+.bold {
+  font-weight: 900;
+}
+
 /* MEDIA SECTION 3 */
 @media screen and (max-width: 768px){
   .con2 { 
@@ -552,7 +561,16 @@ font-size: 0.8em;
   
 
   .del1 {
-    width: 65vw;
+    width: 62vw;
+  }
+
+  .textmeio {
+    margin: 5vw 0 5vw 6vw;
+    text-align: justify;
+  }
+  
+  .bold {
+    font-weight: 900;
   }
 
 
