@@ -453,6 +453,7 @@ font-size: 0.8em;
       line-height: 27px;
       padding-bottom: 25px;
       padding-top:16px;
+      padding-left: 35px;
   }
 }
 #banner3{
@@ -522,6 +523,7 @@ font-size: 0.8em;
       line-height: 27px;
       padding-bottom: 25px;
       padding-top:16px;
+      padding-left: 45px;
   }
   }
 /* FIM MEDIA SECTION 3 */
@@ -573,7 +575,7 @@ font-size: 0.8em;
     background-color: #0B6EE6;
     color:white;
     font-family: 'Oswald', sans-serif;
-    width: 300px;
+    width: 250px;
     border:1px solid#0B6EE6;
     border-radius: 75px;
 }
@@ -586,13 +588,13 @@ font-size: 0.8em;
     background-color: #2717E6;
     color:white;
     font-family: 'Oswald', sans-serif;
-    width: 300px;
+    width: 250px;
     border:1px solid#2717E6;
     border-radius: 75px;
 }
 #siga{
     padding-left: 75px;
-    padding-top: 131px;
+    padding-top: 80px;
     font-family: 'Oswald', sans-serif;
     font-style: normal;
     font-weight: normal;
@@ -605,6 +607,9 @@ font-size: 0.8em;
     padding-top: 9px; 
     padding-bottom: 101px;
 }
+span{
+  padding-left: 15px;
+}
 #horarios{
     color:black;
 }
@@ -616,7 +621,6 @@ font-size: 0.8em;
     line-height: 36px;
     padding-top: 35px;
     padding-bottom: 25px;
-    padding-left: 75px;
 }
 .hora_1{
   font-family: 'Oswald', sans-serif;
@@ -626,7 +630,6 @@ font-size: 0.8em;
   line-height: 27px;
   padding-bottom: 25px;
   padding-top:16px;
-  padding-left: 75px;
 }
 .tema{
   font-family: 'Oswald', sans-serif;
@@ -634,6 +637,7 @@ font-size: 0.8em;
   font-weight: 300;
   font-size: 25px;
   margin-bottom: 3px;
+  
 }
 #inter{
     margin-top: 10px;
