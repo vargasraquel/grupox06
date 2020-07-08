@@ -383,6 +383,7 @@ font-size: 0.8em;
 }
 #hr{
   background-color: #0093CB;
+  max-width: 30vw;
 }
 
 .n1 {
@@ -422,6 +423,7 @@ font-size: 0.8em;
   }
   #hr{
     background-color: #0093CB;
+    max-width: 60vw;
   }
   #detalhes{
     font-family: 'Oswald', sans-serif;
