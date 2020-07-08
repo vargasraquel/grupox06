@@ -12,7 +12,28 @@ body {
   font-weight: 300;
   overflow-x: hidden;
 }
-
+/*MENU */
+#edit{
+  background-color: #006eea;
+  margin-bottom: 20px;
+}
+#itens_menu{
+  font-family: 'Oswald', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  color: white;
+}
+nav_item:hover{
+  background-color: #006eea;
+}
+edit:hover{
+  background-color: #006eea;
+}
+navbarSite:hover{
+  background-color: #006eea;
+}
+/*FIM MENU*/
 /* Cabeçalho*/
 .topo {
   margin: 2vw auto;
