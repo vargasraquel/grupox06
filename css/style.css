@@ -388,8 +388,29 @@ font-size: 0.8em;
 .n1 {
   margin-top: 2vw;
 }
+
+.con1 {
+  padding-left: 0;
+  padding-right: 0;
+  margin: 1vw auto;
+}
+
+.con2 { 
+  margin: 1vw auto;
+  text-align: center;
+}
+
+.del1 {
+  width: 24.6vw;
+  margin-left: 2vw;
+}
+
 /* MEDIA SECTION 3 */
 @media screen and (max-width: 768px){
+  .con2 { 
+    margin: 3vw auto;
+    text-align: center;
+  }
   #banner4{
       margin-left: 0px;
   }
@@ -409,7 +430,7 @@ font-size: 0.8em;
     font-size: 32px;
     line-height: 47px;
     padding-top: 75px;
-   
+
   }
   #detalhes_1{
       font-family: 'Oswald', sans-serif;
@@ -434,7 +455,7 @@ font-size: 0.8em;
       font-size: 24px;
       line-height: 36px;
       margin-top: 2vw;
- 
+
   }
   #data_ev{
     font-family: 'Oswald', sans-serif;
@@ -456,6 +477,7 @@ font-size: 0.8em;
       padding-left: 35px;
   }
 }
+
 #banner3{
   width: 100%;
   height: 100%;
@@ -479,7 +501,7 @@ font-size: 0.8em;
     font-size: 32px;
     line-height: 47px;
     padding-top: 75px;
-   
+
   }
   #detalhes_1{
       font-family: 'Oswald', sans-serif;
@@ -525,7 +547,14 @@ font-size: 0.8em;
       padding-top:16px;
       padding-left: 45px;
   }
+  
+
+  .del1 {
+    width: 65vw;
   }
+
+
+}
 /* FIM MEDIA SECTION 3 */
 #detalhes{
   font-family: 'Oswald', sans-serif;
@@ -536,8 +565,9 @@ font-size: 0.8em;
   padding-top: 75px;
   padding-left: 0;
   padding-right: 0;
-
 }
+
+
 #detalhes_1{
   font-family: 'Oswald', sans-serif;
   font-style: normal;
@@ -546,7 +576,6 @@ font-size: 0.8em;
   padding-top: 4px;
   padding-left: 0;
   padding-right: 0;
-
 }
 #start_ev{
   font-family: 'Oswald', sans-serif;
@@ -571,6 +600,10 @@ font-size: 0.8em;
     margin-left: auto;
     margin-right: auto;
 }
+#btn_insc {
+  padding-left: 0;
+  padding-right: 0;
+}
 #btn_insc1{
     background-color: #0B6EE6;
     color:white;
@@ -580,10 +613,11 @@ font-size: 0.8em;
     border-radius: 75px;
 }
 #btn_ind{
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 35px
+    padding-top: 35px;
+    padding-left: 0;
+    padding-right: 0;
 }
+
 #btn_ind1{
     background-color: #2717E6;
     color:white;
@@ -622,6 +656,7 @@ span{
     padding-top: 35px;
     padding-bottom: 25px;
 }
+
 .hora_1{
   font-family: 'Oswald', sans-serif;
   font-style: normal;
@@ -637,6 +672,7 @@ span{
   font-weight: 300;
   font-size: 25px;
   margin-bottom: 3px;
+  text-align: center;
   
 }
 #inter{
