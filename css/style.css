@@ -33,6 +33,12 @@ edit:hover{
 navbarSite:hover{
   background-color: #006eea;
 }
+
+.nav-item a:hover {
+  text-decoration: underline;
+  color: #fff;
+}
+
 /*FIM MENU*/
 /* Cabeçalho*/
 .topo {
@@ -330,7 +336,7 @@ font-size: 0.8em;
   text-decoration: none;
 }
 
-  a:hover {
+.linkedin a:hover {
     text-decoration: underline; 
     color:#0006ee;
     background:#fff; 
@@ -720,6 +726,21 @@ span{
     margin-top: 10px;
     padding-left: 5%;
     margin-bottom: 3px;
+}
+
+@media only screen and (max-width: 550px) {
+  #redes {
+  margin: auto;
+  padding: 5% 0 11% 0;
+  text-align: center;
+}
+
+#siga {
+  margin: auto;
+  padding: 0;
+  text-align: center;
+}
+
 }
 /*Fim da section 3*/
 
